@@ -11,7 +11,7 @@ This package provides a way to present the preview that doesn't dim the window.
 
 ## Basic Usage
 
-```
+```swift
 .quickLookPreview(_ items: Binding<[QuickLookPreviewItem]>, at index: Binding<Int> = Binding<Int>.constant(0))
 ```
 
