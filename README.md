@@ -7,7 +7,7 @@ This package provides a way to present the preview that doesn't dim the window.
 
 ⚠️ This package is designed for and only tested on Mac Catalyst apps.
 
-
+![screen-recording](https://user-images.githubusercontent.com/5054148/147019774-dccba616-129b-45a2-bc40-0fa16acf3c10.gif)
 
 ## Basic Usage
 
