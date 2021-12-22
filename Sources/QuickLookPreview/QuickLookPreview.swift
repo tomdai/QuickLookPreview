@@ -16,7 +16,7 @@ public class QuickLookPreviewItem: NSObject, QLPreviewItem {
     public var previewItemURL: URL?
     public var previewItemTitle: String?
     
-    init(url: URL, title: String) {
+    public init(url: URL, title: String) {
         self.previewItemURL = url
         self.previewItemTitle = title
     }
