@@ -1,7 +1,7 @@
 import SwiftUI
 import QuickLook
 
-extension View {
+public extension View {
     func quickLookPreview(_ items: Binding<[QuickLookPreviewItem]>, at index: Binding<Int> = Binding<Int>.constant(0)) -> some View {
         background {
             if !items.isEmpty {
@@ -12,9 +12,9 @@ extension View {
     }
 }
 
-class QuickLookPreviewItem: NSObject, QLPreviewItem {
-    var previewItemURL: URL?
-    var previewItemTitle: String?
+public class QuickLookPreviewItem: NSObject, QLPreviewItem {
+    public var previewItemURL: URL?
+    public var previewItemTitle: String?
     
     init(url: URL, title: String) {
         self.previewItemURL = url
